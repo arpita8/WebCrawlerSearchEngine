@@ -1,0 +1,207 @@
+/*
+body.images #results-main-content {
+	width: 800px;
+}
+
+#results-main-content .resultThumbnailPane {
+	float: none;
+}
+
+#results-main-content .videoResult img {
+	width: 100%;
+}
+
+#results-main-content .imageResult {
+	width: 230px;
+}
+
+
+#related-content {
+	width: 280px;
+}
+
+#related-content .aylfResult {
+	float: left;
+	width: 120px;
+	padding: 0;
+	margin: 5px 10px;
+}
+*/
+
+.suggest_link {
+	height: 14px;
+	line-height: 14px;
+	padding: 2px 6px 2px 6px;
+	
+	background-color: #fff;
+	
+	overflow: hidden;
+}
+
+.suggest_link_over {
+	height: 14px;
+	line-height: 14px;
+	padding: 2px 6px 2px 6px;
+	
+	background-color: #d3d3d3;
+	color: #000;
+	
+	overflow: hidden;
+	
+	cursor: pointer;
+}
+
+.suggestPanel {
+	display: none;
+	position: absolute; 
+	
+	text-align: left;
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 12px;
+	
+	background-color: #fff;
+	border: 1px solid #000;
+	
+	z-index: 10;
+}
+
+/* - */
+
+body.images #results-main {
+    width: 880px;
+}
+
+#results-main-content .imageResult {
+    border: 1px solid #ccc;
+    display: block;
+    float: left;
+    height: 175px;
+    line-height: 116px;
+    padding: 0;
+    margin: 0 5px 12px 0;
+    width: 150px
+}
+
+#results-main-content .imageResult .resultThumbnailPane {
+    float: none;
+    max-height: 123px;
+    overflow: hidden;
+    text-align: center
+}
+
+#results-main-content .imageResult .resultThumbnailPane .resultThumbnail {
+    vertical-align: middle;
+    max-height: 110px;
+    max-width: 140px;
+    width: auto
+}
+
+#results-main-content .imageResult .resultThumbnailInfoWrapper {
+    overflow: hidden;
+    padding: 5px 5px 0;
+    max-height: 40px;
+    max-width: 140px;
+    text-align: center;
+    margin: 0 auto
+}
+
+#results-main-content .imageResult .resultThumbnailInfoWrapper .resultTitle {
+    display: none
+}
+
+#results-main-content .imageResult .resultThumbnailInfoWrapper .resultDescription {
+    max-height: 70px
+}
+
+#results-main-content .imageResult .resultThumbnailInfoWrapper .resultDisplayUrl {
+    display: block;
+    color: #093;
+    line-height: 1.5em;
+    max-width: 100%;
+    text-decoration: none;
+    vertical-align: top;
+	
+	overflow: hidden;
+}
+
+body.videos #results-main {
+    padding: 10px;
+	
+    overflow: hidden;
+}
+
+body.videos #results-main-content {
+    background-color: #f3f3f3;
+}
+
+#results-main-content .videoResult {
+    background-color: #fff;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    height: 230px;
+    width: 220px;
+    position: relative;
+    overflow: hidden
+}
+
+#results-main-content .videoResult .resultSourceDate {
+    display: none;
+}
+
+#results-main-content .videoResult .resultDescription {
+    max-height: 70px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden
+}
+
+#results-main-content .videoResult .resultAttribution {
+    display: none;
+}
+
+#results-main-content .videoResult .resultTitle a {
+    line-height: 1.3em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden
+}
+
+#results-main-content .videoResult .resultThumbnailInfoWrapper {
+    overflow: hidden;
+    padding: 5px 0 0 0
+}
+
+#results-main-content .videoResult .resultThumbnailPane {
+    float: none;
+    max-height: 123px;
+    overflow: hidden
+}
+
+#results-main-content .videoResult .resultThumbnailPane .resultThumbnailLink object {
+    max-width: 220px;
+    width: 100%;
+    height: auto
+}
+
+#results-main-content .videoResult .resultThumbnailPane .resultThumbnailLink .resultThumbnail {
+    max-width: 220px;
+    width: 100%;
+    height: auto
+}
+
+#results-main-content .videoResult .resultThumbnailPane .resultThumbnailLink .resultDuration {
+    background-color: #333;
+    color: #fff;
+    display: none;
+    font-weight: bold;
+    padding: 2px;
+    text-align: right
+}
+
+#results-main-content .videoResult .resultAttribution {
+    position: absolute;
+    bottom: 5px
+}
